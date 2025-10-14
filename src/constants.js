@@ -219,7 +219,7 @@ export const SkillsInfo = [
       description:"Internal training email campaign system using ASP.NET Web Forms and SQL Server. Included filters, BigQuery integration, status tracking, and CRON automation.",
      // image: githubdetLogo,
       tags: ["ASP.NET Web Forms", "SQL Server", "C#", "BigQuery", "CRON", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+     // github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
@@ -229,7 +229,7 @@ export const SkillsInfo = [
         "Arduino-based hardware project to detect drowsiness and shut engine after 2+ seconds of no response using Eye Blink Sensor.",
       image: csprepLogo,
       tags: ["Arduino", "Eye Blink Sensor", "Relay", "Motor", "Buzzer"],
-      github: "https://github.com/codingmastr/CSPrep",
+     // github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
     },
     {
@@ -239,7 +239,7 @@ export const SkillsInfo = [
        "Web-based app for managing doctor-patient appointments using ASP.NET Web Forms and SQL Server.",
       image: movierecLogo,
       tags: ["ASP.NET Web Forms", "SQL Server", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+     // github: "https://github.com/codingmastr/Movie-Recommendation-App",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
@@ -249,7 +249,7 @@ export const SkillsInfo = [
        "Built in .NET Console using C# with support for encryption, dynamic IP/port config, and multiple connections.",
       //image: npmLogo,
       tags: [".NET", "C#", "Socket Programming", "Encryption"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
+    //  github: "https://github.com/codingmastr/cmtk-email-validator",
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
     {
@@ -259,7 +259,7 @@ export const SkillsInfo = [
         "Desktop-based Java Swing application to manage hotel room bookings, customers, staff with MySQL backend.",
       image: taskremLogo,
       tags: ["Java", "Swing", "AWT", "MySQL"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+    //  github: "https://github.com/codingmastr/Task-Reminder-Tool",
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
     {
@@ -269,7 +269,7 @@ export const SkillsInfo = [
         "Classic snake game built using Java Swing with scoring, collision detection, and executable JAR packaging.",
       image: webverLogo,
       tags: ["Java", "Swing", "AWT"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
+     // github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
     },
     {
@@ -279,7 +279,7 @@ export const SkillsInfo = [
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
+      //github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
     },
     {
@@ -289,7 +289,7 @@ export const SkillsInfo = [
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
       image: imagesearchLogo,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
+      //github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",
     },
     {
@@ -299,7 +299,7 @@ export const SkillsInfo = [
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
+      //github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
     },
   ];  
