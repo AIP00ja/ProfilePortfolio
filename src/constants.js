@@ -239,7 +239,7 @@ export const projects = [
       "Web-based app for managing doctor-patient appointments using ASP.NET Web Forms and SQL Server.",
     image: movierecLogo,
     tags: ["ASP.NET Web Forms", "SQL Server", "HTML", "CSS", "JavaScript"],
-    // github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    github: "https://github.com/codingmastr/Movie-Recommendation-App",
     webapp: "https://movie-recommendation-app-jet.vercel.app/",
   },
   {
@@ -274,13 +274,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Coding Master",
+    title: "Movie House",
     description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
+      "Movie House is a React.js-based movie recommendation platform that allows users to explore, search, and filter movies by genre, popularity, and ratings. It uses The Movie Database (TMDb) API to fetch real-time movie data including posters, descriptions, and ratings. The app features an interactive UI with dynamic search functionality, transparent UI elements, and a cinematic background to enhance the user experience.",
+    image: movierecLogo,
+    tags: ["React JS", "API Integration", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/AIP00ja/Movie-Recommendation.git",
+    webapp: "https://movie-house-weld.vercel.app/",
   },
   {
     id: 7,
