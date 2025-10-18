@@ -1,36 +1,31 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-//import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 //import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-//import gsapLogo from './assets/tech_logo/gsap.png';
-//import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
-//import expressjsLogo from './assets/tech_logo/express.png';
+import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-//import mongodbLogo from './assets/tech_logo/mongodb.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
 //import firebaseLogo from './assets/tech_logo/firebase.png';
-//import cLogo from './assets/tech_logo/c.png';
-//import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 //import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
-//import githubLogo from './assets/tech_logo/github.png';
+import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-//import mcLogo from './assets/tech_logo/mc.png';
-//import figmaLogo from './assets/tech_logo/figma.png';
+import VisualStudio from './assets/tech_logo/VisualStudio.png';
+import aspnet from './assets/tech_logo/aspnetlogo.png';
 //import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
+//import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
@@ -45,12 +40,13 @@ import school from './assets/education_logo/MSBSHSE_logo.png';
 
 // Project Section Logo's
 //import githubdetLogo from './assets/work_logo/github_det.png';
+import githubdetLogo from './assets/work_logo/github_detr.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 //import npmLogo from './assets/work_logo/npm.png';
+import home from './assets/work_logo/homeapp.png';
 import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -76,13 +72,13 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      { name: 'Spring boot',logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
-      //  { name: 'Express JS', logo: expressjsLogo },
+        { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
-      // { name: 'MongoDB', logo: mongodbLogo },
-      //{ name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+       { name: 'MongoDB', logo: mongodbLogo },
+       { name: 'Asp.Net', logo: aspnet},
+      //{ name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -101,10 +97,10 @@ export const SkillsInfo = [
     title: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
-      // { name: 'GitHub', logo: githubLogo },
+      { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      //{ name: 'Compass', logo: mcLogo },
+      { name: 'Visual Studio', logo: VisualStudio},
       { name: 'Vercel', logo: vercelLogo },
       //{ name: 'Netlify', logo: netlifyLogo },
       // { name: 'Figma', logo: figmaLogo },
@@ -119,7 +115,7 @@ export const experiences = [
     role: "Full Stack Developer(Next.js + .Net)",
     company: "Hfiles",
     date: "June 2025 - Present",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    desc: "Developed dynamic and scalable web applications using the MERN stack, managing both frontend and backend development. Collaborated with cross-functional teams to build responsive UIs and implement RESTful APIs. Focused on performance optimization and agile development for efficient project delivery.",
     skills: [
       "HTML",
       "CSS",
@@ -143,7 +139,7 @@ export const experiences = [
     role: "Dot Net Developer Intern",
     company: "Mobilestyx Consulting and Solutions",
     date: "Oct 2024 – April 2025",
-    desc: "Worked on an internal newsletter campaign system for employee communication using ASP.NET Web Forms and SQL Server. Integrated Google BigQuery to fetch filtered employee data based on region, department, and course completion. Developed a robust admin panel to manage email templates and campaign workflows. Implemented functionality to send emails with unique tracking IDs and monitor their status in real time. Enabled reply tracking and developed a system for responding directly through the platform. Designed an efficient database schema to handle campaign states like Draft, Sent, and Replied. Automated email lifecycle events through CRON jobs and added notification alerts for admin actions. Worked closely with the UI team to build responsive designs using HTML, CSS, JavaScript, and Bootstrap. Collaborated in an Agile environment to deploy new features and improve system performance.",
+    desc: "Developed an internal newsletter campaign system for employee communication using ASP.NET Web Forms and SQL Server, integrated with Google BigQuery for dynamic employee filtering.Built a powerful admin panel to manage templates, workflows, and email tracking with real-time status and reply handling.Automated campaign processes with CRON jobs, added admin notifications, and collaborated with the UI team to deliver responsive designs in an Agile environment.",
     skills: [
       "ReactJS",
       "Redux",
@@ -160,7 +156,7 @@ export const experiences = [
     role: "Software Support Engineer",
     company: "Spine Technologies India Pvt. Ltd",
     date: "Oct 2022 – Aug 2024",
-    desc: "Provided software support and technical assistance for enterprise-level payroll and HRMS applications. Wrote and optimized complex SQL queries to support data-driven features and generate detailed reports. Ensured the proper functioning of backend workflows and frontend templates built with HTML, CSS, and JavaScript. Configured and maintained IIS Server for deploying .NET-based web applications and troubleshooting issues. Resolved user-reported bugs by performing system diagnostics, code fixes, and patch rollouts. Collaborated with cross-functional teams to document standard operating procedures and update software documentation. Monitored server uptime and performance to reduce system downtime and improve reliability. Delivered voice/email-based client support to resolve technical issues related to software and servers. Played a key role in testing, validating, and rolling out software updates and patches securely.",
+    desc: "Provided software support and technical assistance for enterprise-level payroll and HRMS applications, ensuring smooth backend and frontend operations. Handled SQL optimization, IIS server configuration, and issue resolution through diagnostics, code fixes, and patch rollouts.Collaborated with teams to document procedures, monitor server performance, and deliver reliable client support for software and system issues.",
     skills: [
       "SQL Server",
       "HTML",
@@ -180,7 +176,7 @@ export const education = [
     school: "Shailendra Education Society, Mumbai",
     date: "Sept 2022 - July 2024",
     grade: "7.77 CGPA",
-    desc: "Completed M.Sc. IT from Shailendra Education Society (Mumbai University), studying Cyber Forensics, Deep Learning, Blockchain, Machine Learning, Cloud Computing, Big Data Analytics, and other advanced IT subjects. The four-semester program combined theory, practicals, and project work, building strong technical expertise.",
+    desc: "Completed M.Sc. IT from Shailendra Education Society (Mumbai University), gaining expertise in Cyber Forensics, AI, Blockchain, Cloud Computing, and Big Data Analytics.",
     degree: "Master of Science in Information Technology - M.Sc.IT",
   },
   {
@@ -189,7 +185,7 @@ export const education = [
     school: "Shailendra Education Society, Mumbai",
     date: "Sept 2017 - Aug 2020",
     grade: "7.12 CGPA",
-    desc: "Completed B.Sc. IT from Shailendra Education Society, covering subjects such as Programming, Data Structures, Databases, Core Java, AI, Advanced Web Programming, Enterprise Java, Business Intelligence, Cyber Laws, and Security in Computing. The six-semester program blended theory, practicals, and projects, building a strong foundation in software development and computing.",
+    desc: "Completed B.Sc. IT from Shailendra Education Society, gaining a strong foundation in programming, databases, Java, C#, Python C, C++, and web development.",
     degree: "Bachelor of Science in Information Technology - B.Sc.IT",
   },
   {
@@ -207,7 +203,7 @@ export const education = [
     school: "Swami Vivekanand School",
     date: "Apr 2014 - March 2015",
     grade: "73.20%",
-    desc: "Completed Class 10 (SSC, Maharashtra Board) from Swami Vivekanand School with 73.20%, focusing on Science and Computer studies.",
+    desc: "Completed Class 10 (SSC, Maharashtra Board) from Swami Vivekanand School with 73.20%. Focused on Science and Computer Studies, building a strong academic base.",
     degree: "SSC(X)",
   },
 ];
@@ -217,30 +213,30 @@ export const projects = [
     id: 0,
     title: "Training Newsletter System",
     description: "Internal training email campaign system using ASP.NET Web Forms and SQL Server. Included filters, BigQuery integration, status tracking, and CRON automation.",
-    // image: githubdetLogo,
+    image: githubdetLogo,
     tags: ["ASP.NET Web Forms", "SQL Server", "C#", "BigQuery", "CRON", "HTML", "CSS"],
-    // github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    github: "https://github.com/AIP00ja/NewletterProject.git",
+    webapp: "http://NewletterProject.somee.com",
   },
   {
     id: 1,
-    title: "Driver Sleep Detection System",
+    title: "Home Appliances",
     description:
       "Arduino-based hardware project to detect drowsiness and shut engine after 2+ seconds of no response using Eye Blink Sensor.",
-    image: csprepLogo,
-    tags: ["Arduino", "Eye Blink Sensor", "Relay", "Motor", "Buzzer"],
+    image: home,
+    tags: ["ASP.NET Web Forms", "html", "css", "javascript", "mssql","c#"],
     // github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    webapp: "http://homeappliances.somee.com/",
   },
   {
     id: 2,
-    title: "Online Doctor Appointment System",
+    title: "Medical Record Dashboard",
     description:
       "Web-based app for managing doctor-patient appointments using ASP.NET Web Forms and SQL Server.",
-    image: movierecLogo,
-    tags: ["ASP.NET Web Forms", "SQL Server", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    image: home,
+    tags: ["ASP.NET core web api", "mysql", "HTML", "CSS", "JavaScript","tailwin","next.js"],
+    github: "https://github.com/AIP00ja/MedicalRecordDashboard.git",
+    webapp: "https://medical-record-dashboard.vercel.app/",
   },
   {
     id: 3,
@@ -250,7 +246,7 @@ export const projects = [
     //image: npmLogo,
     tags: [".NET", "C#", "Socket Programming", "Encryption"],
     //  github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    //webapp: "https://www.npmjs.com/package/cmtk-email-validator",
   },
   {
     id: 4,
@@ -260,7 +256,7 @@ export const projects = [
     image: taskremLogo,
     tags: ["Java", "Swing", "AWT", "MySQL"],
     //  github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    //webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
   },
   {
     id: 5,
@@ -270,7 +266,7 @@ export const projects = [
     image: webverLogo,
     tags: ["Java", "Swing", "AWT"],
     // github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
+   // webapp: "https://webversedigital.com/",
   },
   {
     id: 6,
