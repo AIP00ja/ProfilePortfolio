@@ -43,10 +43,10 @@ import school from './assets/education_logo/MSBSHSE_logo.png';
 import githubdetLogo from './assets/work_logo/github_detr.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
+import taskremLogo from './assets/work_logo/hotel.png';
 //import npmLogo from './assets/work_logo/npm.png';
 import home from './assets/work_logo/homeapp.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import webverLogo from './assets/work_logo/SnakeGame.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -212,9 +212,9 @@ export const projects = [
   {
     id: 0,
     title: "Training Newsletter System",
-    description: "Internal training email campaign system using ASP.NET Web Forms and SQL Server. Included filters, BigQuery integration, status tracking, and CRON automation.",
+    description:"Developed an internal training newsletter system using ASP.NET Web Forms (C#) and SQL Server. Integrated employee data from Google BigQuery to enable filtered email campaigns and response tracking. Designed a custom admin panel with status workflows (Draft, Sent, etc.), reply tracking, notifications, and automated email processing via CRON jobs.",
     image: githubdetLogo,
-    tags: ["ASP.NET Web Forms", "SQL Server", "C#", "BigQuery", "CRON", "HTML", "CSS"],
+    tags: ["ASP.NET Web Forms", "SQL Server", "C#", "BigQuery", "CRON", "HTML", "CSS","javascript",""],
     github: "https://github.com/AIP00ja/NewletterProject.git",
     webapp: "http://NewletterProject.somee.com",
   },
@@ -222,10 +222,10 @@ export const projects = [
     id: 1,
     title: "Home Appliances",
     description:
-      "Arduino-based hardware project to detect drowsiness and shut engine after 2+ seconds of no response using Eye Blink Sensor.",
+      "Home Appliances is a web-based application built using ASP.NET Web Forms, C#, HTML, CSS, and JavaScript with SQL Server as the backend. It allows users to explore products, register, and log in, while admins can manage user data, update records, and export details to Excel or PDF. The project features a clean, responsive design and user-friendly interface for seamless management of home appliance information",
     image: home,
-    tags: ["ASP.NET Web Forms", "html", "css", "javascript", "mssql","c#"],
-    // github: "https://github.com/codingmastr/CSPrep",
+    tags: ["ASP.NET Web Forms", "C#", "HTML", "CSS", "JavaScript", "MSSQL"],
+    github: "https://github.com/AIP00ja/HomeAppliances/tree/master",
     webapp: "http://homeappliances.somee.com/",
   },
   {
@@ -255,7 +255,7 @@ export const projects = [
       "Desktop-based Java Swing application to manage hotel room bookings, customers, staff with MySQL backend.",
     image: taskremLogo,
     tags: ["Java", "Swing", "AWT", "MySQL"],
-    //  github: "https://github.com/codingmastr/Task-Reminder-Tool",
+    github: "https://github.com/AIP00ja/HotelManagementSystem.git",
     //webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
   },
   {
@@ -265,7 +265,7 @@ export const projects = [
       "Classic snake game built using Java Swing with scoring, collision detection, and executable JAR packaging.",
     image: webverLogo,
     tags: ["Java", "Swing", "AWT"],
-    // github: "https://github.com/codingmastr/Webverse-Digital",
+    github: "https://github.com/AIP00ja/SnakeGame.git",
    // webapp: "https://webversedigital.com/",
   },
   {
