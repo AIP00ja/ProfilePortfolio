@@ -12,6 +12,56 @@ const Work = () => {
     setSelectedProject(null);
   };
 
+  const handlePayment = (githubLink) => {
+  const options = {
+    key: "rzp_test_RVR3fADZlXaSjH", // your Razorpay Key ID
+    amount: 100, // ₹1 (in paise)
+    currency: "INR",
+    name: "Pooja Gaud Portfolio",
+    description: "Access Project Code",
+    handler: function (response) {
+      alert("Payment successful! Redirecting to code...");
+      window.open(githubLink, "_blank");
+    },
+    prefill: {
+      name: "Visitor",
+      email: "poojagaud2599@gmail.com",
+      contact: "9653258224",
+    },
+    theme: {
+      color: "#8b5cf6",
+    },
+    method: {
+      upi: true, // ✅ enables UPI payments
+      card: true,
+      netbanking: true,
+      wallet: true,
+    },
+    config: {
+      display: {
+        blocks: {
+          upi: {
+            name: "Pay using UPI (Scan & Pay)",
+            instruments: [
+              {
+                method: "upi",
+                flows: ["collect", "intent", "qr"], // ✅ include QR flow
+              },
+            ],
+          },
+        },
+        sequence: ["upi", "card", "netbanking", "wallet"],
+        preferences: {
+          show_default_blocks: true,
+        },
+      },
+    },
+  };
+
+  const rzp1 = new window.Razorpay(options);
+  rzp1.open();
+};
+
   return (
     <section
       id="work"
@@ -103,14 +153,21 @@ const Work = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a
+                  {/* <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
-                  </a>
+                  </a> */}
+                  <button
+                    onClick={() => handlePayment(selectedProject.github)}
+                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                  >
+                    View Code
+                  </button>
+
                   <a
                     href={selectedProject.webapp}
                     target="_blank"
