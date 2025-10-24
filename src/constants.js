@@ -41,10 +41,10 @@ import school from './assets/education_logo/MSBSHSE_logo.png';
 // Project Section Logo's
 //import githubdetLogo from './assets/work_logo/github_det.png';
 import githubdetLogo from './assets/work_logo/github_detr.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import Medical from './assets/work_logo/Medical.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/hotel.png';
-//import npmLogo from './assets/work_logo/npm.png';
+import npmLogo from './assets/work_logo/instagram.png';
 import home from './assets/work_logo/homeapp.png';
 import webverLogo from './assets/work_logo/SnakeGame.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -229,22 +229,22 @@ export const projects = [
     webapp: "http://homeappliances.somee.com/",
   },
   {
-    id: 2,
-    title: "Medical Record Dashboard",
-    description:
-      "Web-based app for managing doctor-patient appointments using ASP.NET Web Forms and SQL Server.",
-    image: home,
-    tags: ["ASP.NET core web api", "mysql", "HTML", "CSS", "JavaScript","tailwin","next.js"],
-    github: "https://github.com/AIP00ja/MedicalRecordDashboard.git",
-    webapp: "https://medical-record-dashboard.vercel.app/",
-  },
+  id: 2,
+  title: "Medical Record Dashboard",
+  description:
+    "A secure and responsive medical record management system built with Next.js and ASP.NET Web API. It allows users to sign up, update their personal details, and upload various medical files such as lab reports, prescriptions, and scans. The dashboard provides file preview, view, and delete options through API-based operations, ensuring a smooth and authenticated experience.",
+  image: Medical,
+  tags: ["Next.js", "Tailwind CSS", "ASP.NET Core Web API", "MySQL", "HTML", "CSS", "JavaScript"],
+  github: "https://github.com/AIP00ja/MedicalRecordDashboard.git",
+  webapp: "https://medical-record-dashboard.vercel.app/",
+},
   {
     id: 3,
-    title: "TCP Client-Server Communication",
+    title: "Instagram Clone",
     description:
-      "Built in .NET Console using C# with support for encryption, dynamic IP/port config, and multiple connections.",
-    //image: npmLogo,
-    tags: [".NET", "C#", "Socket Programming", "Encryption"],
+      "",
+    image: npmLogo,
+    tags: ["SpingTool", "Java", "react.js", "MySql","HTML", "CSS","Tailwind CSS"],
     //  github: "https://github.com/codingmastr/cmtk-email-validator",
     //webapp: "https://www.npmjs.com/package/cmtk-email-validator",
   },
