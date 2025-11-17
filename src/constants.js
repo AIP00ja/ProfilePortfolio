@@ -49,6 +49,9 @@ import home from './assets/work_logo/homeapp.png';
 import webverLogo from './assets/work_logo/SnakeGame.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import chatbot from './assets/work_logo/chatbott.png';
+import dashboard from './assets/work_logo/dashboard.png';
+import hrms from './assets/work_logo/hrms.png';
 
 
 export const SkillsInfo = [
@@ -114,7 +117,7 @@ export const experiences = [
     img: hfile,
     role: "Full Stack Developer(Next.js + .Net)",
     company: "Hfiles",
-    date: "June 2025 - Present",
+    date: "May 2025 - Oct",
     desc: "Developed dynamic and scalable web applications using the MERN stack, managing both frontend and backend development. Collaborated with cross-functional teams to build responsive UIs and implement RESTful APIs. Focused on performance optimization and agile development for efficient project delivery.",
     skills: [
       "HTML",
@@ -126,8 +129,6 @@ export const experiences = [
       "Tailwind CSS",
       "MySql",
       "Redux",
-      "AWS",
-      "Docker",
       "Asp.net code web API ",
 
 
@@ -297,5 +298,32 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "API Integration", "Image Processing", "Web App"],
     github: "https://github.com/AIP00ja/ImageBackgroundRemover.git",
     webapp: "https://aip00ja.github.io/ImageBackgroundRemover/",
+  },
+  {
+    id: 9,
+    title: "AIChatbot",
+    description:"",
+    image: chatbot,
+    tags: ["Tailwin", "React.js", "vite.js", "Mongodb atles", "axion", "API"],
+   // github: "https://github.com/AIP00ja/ImageBackgroundRemover.git",
+   // webapp: "https://aip00ja.github.io/ImageBackgroundRemover/",
+  },
+  {
+    id: 10,
+    title: "Task Manager Application",
+    description:"",
+    image: dashboard,
+    tags: ["Tailwin", "Ejs", " Node.js","Express.js (REST API)", "Mongodb atles", "RESTful APIs"],
+   // github: "https://github.com/AIP00ja/ImageBackgroundRemover.git",
+   // webapp: "https://aip00ja.github.io/ImageBackgroundRemover/",
+  },
+  {
+    id: 11,
+    title: "HRMS Payroll System",
+    description:"The HRMS Payroll System is a full-stack project built with Angular and ASP.NET Core Web API to manage employees, attendance, and monthly payroll. It allows HR to perform CRUD operations, track attendance, and auto-generate salaries. Employees can log in to view their details and download payslips. The system uses JWT authentication, EF Core, and a clean Angular dashboard for smooth HR operations.",
+    image: hrms,
+    tags: ["Tailwin", "Anjuler", "Asp.net", "Mongodb atles", "axion", "API"],
+   // github: "https://github.com/AIP00ja/ImageBackgroundRemover.git",
+    //webapp: "https://aip00ja.github.io/ImageBackgroundRemover/",
   }
 ];  

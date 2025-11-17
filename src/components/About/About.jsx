@@ -49,8 +49,8 @@ const About = () => {
             efficient solutions.
           </p>
           {/* Resume Button */}
-          <a
-            href="https://drive.google.com/file/d/1rSSHADdWkWT8OX0hOCDPYqC553OyhfIw/view"
+          <a 
+            href="https://drive.google.com/file/d/1akAGXELPW06Dp1NxWdfcR3LqGHmZ6B6x/view"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
